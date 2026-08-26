@@ -1,0 +1,258 @@
+baseURL: "https://danethmbabogada.cl"
+locale: "es"
+title: "Abogada Daneth Martínez Baeza"
+theme: hugo-profile
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 4
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+params:
+  title: "Daneth Martínez Baeza Abogada"
+  description: Página web de la abogada Daneth Martínez Baeza
+  favicon: "/logof.png"
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1.4rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.8 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  color:
+     textColor: "#343a40"
+     secondaryTextColor: "#6000C0"
+     textLinkColor: "#6000C0"
+     backgroundColor: "#eaedf0"
+     secondaryBackgroundColor: "#49A10E"
+     primaryColor: "#6000C0"
+     secondaryColor: "#f8f9fa"
+
+     darkmode:
+       textColor: "#e4e6eb"
+       secondaryTextColor: "#A10E92"
+       textLinkColor: "#A10E92"
+       backgroundColor: "#18191a"
+       secondaryBackgroundColor: "#212529"
+       primaryColor: "#A10E92"
+       secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto
+    brandName: " "
+    disableSearch: true
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hola, mi nombre es"
+    title: "Daneth Martínez Baeza"
+    subtitle: "Soy abogada porque me interesa apoyar y orientar a las personas en sus dudas y problemáticas legales."
+    content: "Reciba orientación y asesoría con dedicación y compromiso para encontrar la mejor solución a sus dudas, requerimientos y consultas."
+    image: /images/Daneth_portada.jpeg
+    bottomImage:
+      enable: false
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/daneth-martinez-584434108/
+
+  # About
+  about:
+    enable: true
+    title: "Sobre Mí"
+    image: "/images/Perfil.png"
+    content: |-
+      Mi primera profesión es la pedagogía, el 2009 encaminé mis pasos hacia la abogacía y desde el 2015 me he dedicado a ejercer como abogada, una de las mayores cualidades que me dio la pedagogía es poder explicar el derecho de una manera simple y así permitir a las personas entender cuáles son los riesgos y opciones que tienen.
+
+      Tengo 10 años de experiencia, orientando, asesorando y apoyando a las personas en sus consultas y necesidades legales.
+
+      La principal área en la que he trabajado es en derecho societario, constituyendo, modificando, transformando empresas, y lo más importante apoyando en sus consultas a los clientes que necesitaban esta asesoría legal.
+
+      Trabajar en el derecho societario me ha llevado a conocer el derecho laboral, para asesorar tanto a empleadores como trabajadores.
+
+      Como me relaciono tanto con empleadores como con trabajadores, surgen las dudas en el área de la seguridad laboral.
+
+      En mí encontrarán una profesional que escucha, comprende, explica y busca con usted la mejor solución a su inquietud para tener información fundamentada del paso que quiere dar.
+      
+    skills:
+      enable: true
+      title: "Estas son las áreas en las que hago asesorías:"
+      items:
+        - "Área Comercial"
+        - "Área Laboral"
+        - "Área Familia"
+        - "Área Civil"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+         - company: "Área Comercial"
+           jobs:
+              - content: "Asesoría a empresas y personas naturales que quieran constituir, modificar, transforma o disolver una sociedad."
+         - company: "Área Laboral"
+           jobs:
+              - content: "Asesoría y orientación a empresas y personas naturales que requieran confeccionar contratos de trabajo, finiquitos, revisar término de relación laboral, liquidación de sueldos, en general, todo sobre leyes sociales y normativa laboral."
+         - company: "Área Familia"
+           jobs:
+              - content: "Asesoría y orientación en temas de familia, tales como, pensión de alimentos, cuidado personal, relación directa y regular (visitas), divorcio, renuncia a los gananciales, división de los bienes después del divorcio."
+         - company: "Área Civil"
+           jobs:
+              - name: "Pensiones, Testamentos y Herencias:"
+                content: "Asesoría, orientación y tramitación de pensiones efectivas, testamentos, herencias, sucesiones."
+              - name: "Inmuebles:"
+                content: "Asesoría, orientación para compraventa de propiedades, estudio de títulos."
+              - name: "Escrituras:"
+                content: "Escrituras de compraventa de inmuebles, contratos de arrendamiento."
+
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Trayectoria Profesional"
+        content: 
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: 
+        content: 
+        url: 
+        image: 
+
+  # projects
+  projects:
+    enable: true
+    title: "Tips"
+    items:
+      - title: Área Comercial
+        content: |
+          1.- “Cómo se constituye una sociedad, qué tipo de sociedad es la que me conviene para mi emprendimiento”<br><br>
+          2.- “Si necesito cambiar el tipo de sociedad que tengo, cómo lo hago”<br><br>
+          3.- “Cuáles son los pasos para terminar con una sociedad”
+        image: /images/projects/comercial.jpg
+
+      - title: Área Laboral
+        content: |
+          1.- “En algunas oportunidades tanto el trabajador como el empleador tiene dudas en relación con las causales de despido, los fundamentos de éstas y cómo se aplican”<br><br>
+          2.- “Otra de las dudas que surge es la correcta redacción de los contratos, que se ajusten a la normativa vigente”<br><br>
+          3.- “Qué sucede cuando el trabajador realiza una denuncia en la Dirección del Trabajo”<br><br>
+          4.- “Tanto trabajadores como empleadores tienen dudas en relación con la estructura de un finiquito, qué es lo que se paga, cómo se paga, cuándo se paga, cómo está relacionado el finiquito con las causales de despido”<br><br>
+          5.- “Tanto el trabajador como el empleador tienen dudas en relación con la Reserva de Derecho”.
+        image: /images/projects/trabajo.jpg
+
+      - title: Área Familia
+        content: |
+          1.- “Cómo se realiza un divorcio por mutuo acuerdo, existe otra forma de divorciarse”<br><br>
+          2.- “Si soy mujer y trabajo, por qué debo renunciar a los gananciales, qué significan los gananciales, a qué se refieren cuando hablan del artículo 150.”<br><br>
+          3.- “Por qué se debe pagar pensión de alimentos, quién debe pagarla”<br><br>
+          4.- “Puedo condicionar las visitas al pago de la pensión de alimentos”
+        image: /images/projects/familia.png
+
+      - title: Área Civil
+        content: |
+          1.- “Qué derechos tengo cómo hijo al fallecimiento de mi cónyuge o padres”<br><br>
+          2.- “Cuál es la importancia de realizar las posesiones efectivas en el tiempo correspondiente”<br><br>
+          3.- “Qué hago si no he hecho ninguna posesión efectiva”<br><br>
+          4.- “Qué se necesita para vender un inmueble o derechos sobre una propiedad”<br><br>
+          5.- “Cuál es la importancia de hacer un contrato de arrendamiento”<br><br>
+        badges:
+              - "Pensiones, Testamentos y Herencias"
+              - "Inmuebles"
+              - "Escrituras"
+        image: /images/projects/civil.png
+
+  #Contact
+  contact:
+    enable: true
+    content: Mi bandeja de entrada está disponible. Puede hacerme sus consultas y cotizar la asesoría legal que necesite en el correo danethm@gmail.com.  
+    btnName: Contactame
+    btnLink: mailto:danethm@gmail.com
+
+#  footer:
+#    recentPosts:
+#      path: "blogs"
+#      count: 3
+#      title: Recent Posts
+#      enable: false
+#      disableFeaturedImage: false
+#    socialNetworks:
+#      linkedin: https://www.linkedin.com/in/daneth-martinez-584434108/
+
+#  # List pages like blogs and posts
+#  listPages:
+#    disableFeaturedImage: false
+
+#  # Single pages like blog and post
+#  singlePages:
+#    socialShare: true
+#    readTime:
+#      enable: true
+#      content: "min read"
+#    scrollprogress:
+#      enable: true
+#    tags:
+#      openInNewTab: false
+
+  # For translations
+  terms:
+    read: "Leer"
+    toc: "Índice"
+    copyright: "Todos los Derechos Reservados"
+    emailText: "Revisa esta página"
+
+  datesFormat:
+    article: "Ago 24, 2026"
+    articleList: "Ago 24, 2026"
+    articleRecent: "Ago 24, 2026"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
