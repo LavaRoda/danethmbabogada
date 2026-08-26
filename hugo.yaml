@@ -1,4 +1,5 @@
 baseURL: "https://danethmbabogada.cl"
+canonifyURLs: true
 locale: "es"
 title: "Abogada Daneth Martínez Baeza"
 theme: hugo-profile
