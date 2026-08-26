@@ -555,6 +555,21 @@ header .navbar .nav-link {
     border-color: var(--primary-color) !important;
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
+    font-size: 1.25rem !important;
+    padding: 0.8rem 2rem !important;
+}
+
+/* Ajustes para achicar el footer */
+footer .container.py-4 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+footer {
+    font-size: 0.8rem;
+}
+footer img {
+    height: 25px !important;
+    width: 25px !important;
 }
 
 #contact .btn:hover {
