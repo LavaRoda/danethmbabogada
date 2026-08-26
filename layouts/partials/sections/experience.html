@@ -1,0 +1,28 @@
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ $experience.title | default .Site.Params.experience.title | default (i18n
+            "experience") }}</h3>
+        <div class="row justify-content-center pt-5">
+            {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
+            <div class="col-12 col-md-6 col-lg-6 mb-4">
+                <div class="p-4 h-100 rounded" style="background-color: var(--secondary-color);">
+                    <h4 class="mb-3" style="color: var(--primary-color);font-size: 1.8rem;">{{ .company }}</h4>
+                    {{ range $jobIdx, $job := .jobs }}
+                    <div class="mb-3">
+                        {{ if $job.name }}
+                        <h5 class="mb-1 text-decoration-underline" style="font-size: 1.6rem;">{{ $job.name }}</h5>
+                        {{ end }}
+                        <div class="pb-2">
+                            {{ $job.content | markdownify}}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
