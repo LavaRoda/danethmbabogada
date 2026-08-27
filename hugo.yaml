@@ -38,7 +38,7 @@ params:
   font:
     fontSize: 1.4rem # default: 1rem
     fontWeight: 400 # default: 400
-    lineHeight: 1.8 # default: 1.5
+    lineHeight: 1.7 # default: 1.5
     textAlign: left # default: left
 
   # color preference
