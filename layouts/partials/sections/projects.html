@@ -17,9 +17,10 @@
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            {{ .content | markdownify | safeHTML }}
+                        <h5 class="card-title bg-transparent mt-1 text-decoration-underline" style="font-size: 1.5rem;">
+                            {{ .title }}</h5>
+                        <div class="card-text bg-transparent">
+                            {{ .content | markdownify }}
                         </div>
                     </div>
                     {{ if or (.links) (.featured) }}
@@ -56,8 +57,9 @@
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent">{{ .Title | truncate 50 }}</h5>
-                        <div class="card-text bg-transparent secondary-font">
+                        <h5 class="card-title bg-transparent text-decoration-underline" style="font-size: 1.5rem;">{{
+                            .Title | truncate 50 }}</h5>
+                        <div class="card-text bg-transparent">
                             {{ .Summary | truncate 100 | safeHTML }}
                         </div>
                     </div>

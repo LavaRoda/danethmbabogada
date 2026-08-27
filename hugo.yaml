@@ -176,35 +176,35 @@ params:
     items:
       - title: Área Comercial
         content: |
-          1.- “Cómo se constituye una sociedad, qué tipo de sociedad es la que me conviene para mi emprendimiento”<br><br>
-          2.- “Si necesito cambiar el tipo de sociedad que tengo, cómo lo hago”<br><br>
-          3.- “Cuáles son los pasos para terminar con una sociedad”
+          1.- “Cómo se constituye una sociedad, qué tipo de sociedad es la que me conviene para mi emprendimiento”.  
+          2.- “Si necesito cambiar el tipo de sociedad que tengo, cómo lo hago”.   
+          3.- “Cuáles son los pasos para terminar con una sociedad”.  
         image: /images/projects/comercial.jpg
 
       - title: Área Laboral
         content: |
-          1.- “En algunas oportunidades tanto el trabajador como el empleador tiene dudas en relación con las causales de despido, los fundamentos de éstas y cómo se aplican”<br><br>
-          2.- “Otra de las dudas que surge es la correcta redacción de los contratos, que se ajusten a la normativa vigente”<br><br>
-          3.- “Qué sucede cuando el trabajador realiza una denuncia en la Dirección del Trabajo”<br><br>
-          4.- “Tanto trabajadores como empleadores tienen dudas en relación con la estructura de un finiquito, qué es lo que se paga, cómo se paga, cuándo se paga, cómo está relacionado el finiquito con las causales de despido”<br><br>
+          1.- “En algunas oportunidades tanto el trabajador como el empleador tiene dudas en relación con las causales de despido, los fundamentos de éstas y cómo se aplican”.  
+          2.- “Otra de las dudas que surge es la correcta redacción de los contratos, que se ajusten a la normativa vigente”.  
+          3.- “Qué sucede cuando el trabajador realiza una denuncia en la Dirección del Trabajo”.  
+          4.- “Tanto trabajadores como empleadores tienen dudas en relación con la estructura de un finiquito, qué es lo que se paga, cómo se paga, cuándo se paga, cómo está relacionado el finiquito con las causales de despido”.  
           5.- “Tanto el trabajador como el empleador tienen dudas en relación con la Reserva de Derecho”.
         image: /images/projects/trabajo.jpg
 
       - title: Área Familia
         content: |
-          1.- “Cómo se realiza un divorcio por mutuo acuerdo, existe otra forma de divorciarse”<br><br>
-          2.- “Si soy mujer y trabajo, por qué debo renunciar a los gananciales, qué significan los gananciales, a qué se refieren cuando hablan del artículo 150.”<br><br>
-          3.- “Por qué se debe pagar pensión de alimentos, quién debe pagarla”<br><br>
-          4.- “Puedo condicionar las visitas al pago de la pensión de alimentos”
+          1.- “Cómo se realiza un divorcio por mutuo acuerdo, existe otra forma de divorciarse”.  
+          2.- “Si soy mujer y trabajo, por qué debo renunciar a los gananciales, qué significan los gananciales, a qué se refieren cuando hablan del artículo 150”.  
+          3.- “Por qué se debe pagar pensión de alimentos, quién debe pagarla”.  
+          4.- “Puedo condicionar las visitas al pago de la pensión de alimentos”.
         image: /images/projects/familia.png
 
       - title: Área Civil
         content: |
-          1.- “Qué derechos tengo cómo hijo al fallecimiento de mi cónyuge o padres”<br><br>
-          2.- “Cuál es la importancia de realizar las posesiones efectivas en el tiempo correspondiente”<br><br>
-          3.- “Qué hago si no he hecho ninguna posesión efectiva”<br><br>
-          4.- “Qué se necesita para vender un inmueble o derechos sobre una propiedad”<br><br>
-          5.- “Cuál es la importancia de hacer un contrato de arrendamiento”<br><br>
+          1.- “Qué derechos tengo cómo hijo al fallecimiento de mi cónyuge o padres”.  
+          2.- “Cuál es la importancia de realizar las posesiones efectivas en el tiempo correspondiente”.  
+          3.- “Qué hago si no he hecho ninguna posesión efectiva”.  
+          4.- “Qué se necesita para vender un inmueble o derechos sobre una propiedad”.  
+          5.- “Cuál es la importancia de hacer un contrato de arrendamiento”.    
         badges:
               - "Pensiones, Testamentos y Herencias"
               - "Inmuebles"
