@@ -1,4 +1,4 @@
-baseURL: "https://danethmbabogada.cl"
+baseURL: "https://danethjuridico.cl"
 canonifyURLs: true
 locale: "es"
 title: "Abogada Daneth Martínez Baeza"
@@ -25,7 +25,7 @@ markup:
 params:
   title: "Daneth Martínez Baeza Abogada"
   description: Página web de la abogada Daneth Martínez Baeza
-  favicon: "/logof.png"
+  favicon: "/logo.png"
 
   useBootstrapCDN: false
   mathjax: false
@@ -214,9 +214,9 @@ params:
   #Contact
   contact:
     enable: true
-    content: Mi bandeja de entrada está disponible. Puede hacerme sus consultas y cotizar la asesoría legal que necesite en el correo danethm@gmail.com.  
+    content: Mi bandeja de entrada está disponible. Puede hacerme sus consultas y cotizar la asesoría legal que necesite en el correo danethjuridico@gmail.com.  
     btnName: Contactame
-    btnLink: mailto:danethm@gmail.com
+    btnLink: mailto:danethjuridico@gmail.com
 
 #  footer:
 #    recentPosts:
